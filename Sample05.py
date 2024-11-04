@@ -73,6 +73,7 @@ Series
             l[1]        --> 8
 
     * Tuple
+        ->  t = tuple()      ()
 
     * range(start, end, inc)
 
@@ -102,5 +103,8 @@ for each in range(0, 9, 1):
 print("USE THE VALUE")
 for each in l:
     print(each)
+
+
+
 
 
