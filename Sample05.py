@@ -73,11 +73,27 @@ Series
             l[1]        --> 8
 
     * Tuple
-        ->  t = tuple()      ()
+        ->  t = tuple()      
+        -> ()
 
-    * range(start, end, inc)
+    * Range(start, end, inc)
 
     * Dictionary
+        -> d = dict()
+        -> {}
+        -> Do not be confused with set
+        -> {"Adam":"Teacher", "Sun":"The biggest planet"}
+        -> d.keys()
+        -> d.values()
+        -> dict(zip(list1, list2))     * the length of ecah list should be same
+        -> d.update({"Moon":"Circle around the Earth"})
+        -> d[9107] = "My Car"
+        -> d["Adam"] = "The car owner"
+
+
+    * Set
+        -> s = set()
+
 
 '''
 
